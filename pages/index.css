@@ -8,5 +8,51 @@
 }
 
 .header {
-  background-image: url;
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  display: flex;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  list-style-type: none;
+}
+
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  display: flex;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  list-style-type: none;
 }
