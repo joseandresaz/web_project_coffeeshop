@@ -12,6 +12,7 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
+  display: flex;
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
@@ -38,8 +39,6 @@
 
 .nav__link {
   list-style-type: none;
-  font-family: Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -48,19 +47,17 @@
 .header__title {
   max-width: 709px;
   margin-top: 183px;
-  font-family: Inter
-    ";
-  font-style: normal;
-  font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
 }
 
+.header__image {
+}
+
 .span-accent {
-  font-family: Noto Serif";
+  font-family: "Noto Serif", 'Times New Roman', serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
@@ -69,12 +66,10 @@
 .header__description {
   max-width: 683px;
   margin-top: 28px;
-  font-family: Noto Serif
-    ";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
   font-size: 20px;
   line-height: 30px;
+  position: relative;
 }
 
 .header__image {
@@ -88,10 +83,8 @@
 .header__footer {
   color: #6f6f6f;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .header__schedule {
@@ -100,10 +93,11 @@
 }
 
 .header__adress {
+  align-self: flex-end;
 }
 
 .header__paragraph {
-  font-family: Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -114,3 +108,4 @@
 .footer {
   background-color: red;
 }
+ 
