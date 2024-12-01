@@ -97,6 +97,8 @@
 }
 
 .header__adress {
+  display: flex;
+  flex-direction: column;
 }
 
 .header__paragraph {
