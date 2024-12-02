@@ -15,14 +15,21 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
-  padding: 30px 80px 40px;
   margin: 0 auto;
   background-size: cover;
   position: relative;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__logo {
-  position: absolute;
+  width: 105px;
+  height: 39px;
+  position: relative;
+  margin-bottom: 183px;
   top: 30px;
   left: 30px;
   display: flex;
@@ -34,6 +41,7 @@
   position: absolute;
   top: 30px;
   right: 80px;
+  gap: 20px;
 }
 
 .nav__link {
@@ -46,15 +54,13 @@
 .header__title {
   font-family: "Inter", "Times New Roman", serif;
   font-style: normal;
+  position: relative;
+  left: 80px;
   font-weight: 500;
   max-width: 709px;
-  margin-top: 183px;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
-}
-
-.header__image {
 }
 
 .span-accent {
@@ -68,6 +74,8 @@
 .header__description {
   max-width: 683px;
   margin-top: 28px;
+  position: relative;
+  left: 80px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 30px;
@@ -84,6 +92,7 @@
 
 .header__footer {
   color: #6f6f6f;
+  width: 90%;
   position: absolute;
   bottom: 40px;
   left: 80px;
@@ -99,6 +108,7 @@
 .header__adress {
   display: flex;
   flex-direction: column;
+  margin-top: auto;
 }
 
 .header__paragraph {
@@ -106,6 +116,37 @@
   color: #838383;
   flex-direction: column;
   margin: 0;
+}
+
+.recipes {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.recipes__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  max-width: 438px;
+
+  position: relative;
+  left: 80px;
 }
 
 .recipes_videos {
@@ -119,6 +160,7 @@
 }
 
 .video-caption__title {
+
 }
 
 .video-caption__duration {
