@@ -22,7 +22,7 @@
   letter-spacing: 1px;
 }
 
-.span-accent {
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 58px;
