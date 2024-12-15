@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  margin-bottom: 183px;
+  top: 30px;
+  left: 30px;
+  display: flex;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  gap: 20px;
+}
+
+.nav__link {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
